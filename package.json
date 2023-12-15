@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "typegen": "pocketbase-typegen --db ./pocketbase/pb_data/data.db --out pocketbase-types.ts",
+    "typegen": "pocketbase-typegen --db ./pocketbase/pb_data/data.db --out src/types/pocketbase-types.ts",
     "pbserve": "./pocketbase/pocketbase serve"
   },
   "dependencies": {
