@@ -36,4 +36,5 @@ yarn-error.log*
 next-env.d.ts
 
 pocketbase/
-pocketbase-types.ts
+
+types/pocketbase-types.ts
