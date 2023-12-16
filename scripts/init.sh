@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# Check if pnpm is installed
+if ! command -v pnpm &> /dev/null
+then
+    echo -e "Error: pnpm is not installed. To install, use \e[34msudo npm install -g pnpm\e[0m"
+    exit 1
+fi
+
 echo "Installing all dependencies"
 pnpm i
 
